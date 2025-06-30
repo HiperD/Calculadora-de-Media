@@ -14,7 +14,7 @@ if(qtdNotas>0){
         else{
             alert(`Aluno foi reprovado com media final ${media}`);
         }
-    }while(confirm("Do you want to proceed?"));
+    }while(confirm("Gostaria de calcular outra média?"));
     alert("Até a proxima :)");
 }
 else{
