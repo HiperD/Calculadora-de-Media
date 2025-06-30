@@ -1,11 +1,11 @@
 alert('Seja bem-vindo a calculadora de notas!');
 
-qtdNotas = parseInt(prompt('Digite a quantodade de Notas que compóem a média'));
+qtdNotas = parseInt(prompt('Digite a quantidade de Notas que compóem a média'));
 
 do {
     let media = 0;
     for (let i = 0; i < qtdNotas; i++) {
-        media = media + parseInt(prompt(`Digite ${i}º nota`));
+        media = media + parseInt(prompt(`Digite ${i+1}º nota`));
     }
     media = media/qtdNotas;
     if(media >=6){
